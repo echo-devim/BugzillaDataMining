@@ -5,6 +5,8 @@
 
 I extracted all the information using:
 
-`https://SITE.bugzilla.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=NEEDSINFO&bug_status=VERIFIED&bug_status=CLOSED&chfieldfrom=2003-06-29&chfieldto=2004-05-31&limit=20000&query_format=advanced&ctype=csv&human=1`
+> https://SITE.bugzilla.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=NEEDSINFO&bug_status=VERIFIED&bug_status=CLOSED&chfieldfrom=2003-06-29&chfieldto=2004-05-31&limit=20000&query_format=advanced&ctype=csv&human=1
 
 Slicing the time window you can download all the bugs, the maximum number of bugs retrieved by a single query is 10000 (also if limit has a value greater than it).
+
+csv format: "Bug ID","Product","Component","Assignee","Status","Resolution","Summary","Changed"
