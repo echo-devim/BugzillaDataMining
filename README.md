@@ -1,4 +1,4 @@
-# DATASETS
+## DATASETS
 
 * gnome_all.csv.bz2 (uncompressed: 83.4 MB, bugs from 2002 to 2016, 555054 bugs )
 * kde_all.csv.bz2 (uncompressed: 47.7 MB, bugs from 2002 to 2016, 339823 bugs )
@@ -10,4 +10,4 @@ I got all the information using:
 
 Slicing the time window you can download all the bugs, the maximum number of bugs retrieved by a single query is 10000 (also if limit has a value greater than it).
 
-csv format: "Bug ID","Product","Component","Assignee","Status","Resolution","Summary","Changed"
+csv format: *"Bug ID","Product","Component","Assignee","Status","Resolution","Summary","Changed"*
