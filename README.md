@@ -1,8 +1,8 @@
 ## DATASETS
 
-* gnome_all.csv.bz2 (uncompressed: 83.4 MB, bugs from 2002 to 2016, 555054 bugs )
-* kde_all.csv.bz2 (uncompressed: 47.7 MB, bugs from 2002 to 2016, 339823 bugs )
-* xfce_all.csv.bz2 (uncompressed: 1.3 MB, bugs from 2004 to 2016, 10199 bugs )
+* gnome_all.csv.bz2 (uncompressed: 83.4 MB, bugs from 2002 to 2016, 555050 bugs )
+* kde_all.csv.bz2 (uncompressed: 47.7 MB, bugs from 2002 to 2016, 339822 bugs )
+* xfce_all.csv.bz2 (uncompressed: 1.3 MB, bugs from 2004 to 2016, 10198 bugs )
 
 I got all the information using:
 
