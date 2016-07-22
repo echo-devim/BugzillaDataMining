@@ -51,5 +51,5 @@ You can use HDFS, but you can run the project also as standalone on your local m
 ## Execution
 
 1. Start HBase (e.g. `$ hbase-1.2.1/bin/start-hbase.sh`)
-2. Run the Analyzer with `$ spark-1.6.1-bin-hadoop2.4/bin/spark-submit --class "main.Analyzer" --master local[*] --driver-class-path "$(/opt/shared/hbase-1.2.1/bin/hbase classpath):/opt/shared/libs/langdetect-hdfs.jar:/opt/shared/libs/jsonic-1.2.7.jar" /opt/shared/project/buganalyzer.jar file:///opt/shared/project/datasets/xfce_all.csv /opt/shared/project/languages`
+2. Run the Analyzer with `$ spark-1.6.1-bin-hadoop2.4/bin/spark-submit --class "main.Analyzer" --master local[*] --driver-class-path "$(/opt/shared/hbase-1.2.1/bin/hbase classpath):/opt/shared/libs/langdetect-hdfs.jar:/opt/shared/libs/jsonic-1.2.7.jar" /opt/shared/project/buganalyzer.jar file:///opt/shared/project/datasets/xfce_all.csv /opt/shared/project/languages/profiles`
 3. Run the Reporter with `$ spark-1.6.1-bin-hadoop2.4/bin/spark-submit --class "main.Reporter" --master local[*] --driver-class-path "$(/opt/shared/hbase-1.2.1/bin/hbase classpath):/opt/shared/libs/langdetect-hdfs.jar:/opt/shared/libs/jsonic-1.2.7.jar" /opt/shared/project/buganalyzer.jar hdfs://172.97.0.9:9000/user/root/output`
