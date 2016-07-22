@@ -17,8 +17,10 @@ This component takes all the partial results from HBase (i.e. from all the datas
 ------------
 
 If you have few really big datasets you can use the following architecture.
+![arch1](https://raw.githubusercontent.com/echo-devim/BugzillaDataMining/master/arch1.jpg)
 
 Otherwise if you have a lot of small datasets you can use this variant.
+![arch2](https://raw.githubusercontent.com/echo-devim/BugzillaDataMining/master/arch2.jpg)
 
 
 ## Datasets
